@@ -1,5 +1,5 @@
 
-
+-- Go to line 400 to change the tail hat
 -- FE Neko Maid Animations By Creo
 -- Tail that CAN be used https://web.roblox.com/catalog/4645440842/Plain-White-Cat-Tail
 -- For updates on script join this server
@@ -397,7 +397,7 @@ if game:GetService("Players").LocalPlayer.Character.Humanoid.RigType == Enum.Hum
 
 		for _,v in next, DeadChar:GetChildren() do
 			if v:IsA("Accessory") then
-				if v.Name == "Salmon_Tail" then
+				if v.Name == "PlainTail" then --PUT YOUR ACCESSORY HAT NAME (you can find in dex) HERE
 					Tail = CloneChar[v.Name].Handle
 				end
 				SCIFIMOVIELOL(v.Handle,CloneChar[v.Name].Handle,Vector3.new(0,0,0),Vector3.new(0,0,0))
